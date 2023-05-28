@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    place-content: center;
+    background-color: rgb(4, 54, 4);
+}
+
+#recuadro-productos {
+    background-color: green;
+    text-align: center;
+    border: 5px solid brown;
+    padding: 10px;
+    width: 530px;
+}
+
+#nombre-1 {
+    font-size: large;
+}
+
+#precio-1 {
+    font-size: large;
+}
+
+#eleccion-cantidad {
+    border: 2px solid black;
+}
+
+fieldset {
+    border: 2px solid black; 
+}
+
+option {
+    font-size: large;
+}
+
+#primer-boton {
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: large;
+}
+
+#segundo-boton {
+    margin-top: 30px; 
+    border: 3px solid black;
+    font-size: large;
+}
+
+#monto-total {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: aliceblue;
+}
+
+#contenedor-compra {
+    background-color: rgb(144, 124, 86);
+    border: 4px solid black;
+    font-size: larger;
+    padding: 10px;
+}
+
+#imagen-1 {
+    border: 3px solid black;
+}
+
+p {
+    font-size: larger;
+}
+

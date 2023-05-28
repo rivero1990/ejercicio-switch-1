@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div id="recuadro-productos">
+        <h2>Coffee Starbucks</h2>
+        <img id="imagen-1" src="" alt="">
+        <p id="nombre-1">Caramel macchiato</p>
+        <p id="precio-1">Precio : $500</p>
+        <fieldset>
+            <legend>Seleccione Cantidad</legend>
+            <select name="" id="eleccion-cantidad">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="7">7</option>
+            </select>
+        </fieldset>
+
+        <button id="primer-boton" onclick="compraAgregada()">Confirmar</button>
+
+    </div>
+
+        <button id="segundo-boton" onclick="siguienteCompra()">Siguiente</button>
+
+        <p id="monto-total">Precio Total : $0</p>
+
+        <div id="contenedor-compra">
+            <p>Carrito de Compras :</p>
+            <ul id="lista-compra">
+                <!-- <li></li> -->
+            </ul>
+        </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
