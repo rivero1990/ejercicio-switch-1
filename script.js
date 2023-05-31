@@ -42,7 +42,7 @@ function compraAgregada() {
     }
 
     if (nombreProductoActual === NOMBRE_2 && cantidadProducto === 7) {
-    textoCarrito += " + 1 unidad de regalo";
+    textoCarrito += "<li>Scon de Queso de regalo</li> ";
     }
 
     carritoCompra.innerHTML += `<li>${textoCarrito}</li>`;
